@@ -1,3 +1,10 @@
+# Testing of service.
+
+.PHONY: test
+
+test:
+	PYTHONPATH=. pytest -q
+
 # Installation of Python and dependencies.
 
 VENV=.venv

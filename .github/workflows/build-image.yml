@@ -33,9 +33,9 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: lynxelele/python-ml-test
-          tags:
+          tags: |
             type=raw,value=stable
-            type=sha
+            type=sha,format=short
 
       - name: Build and push
         uses: docker/build-push-action@v5
