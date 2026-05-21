@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Testing / cache
+.pytest_cache/
+.mypy_cache/
+
+# Data / notebooks (VERY IMPORTANT)
+data/
+datasets/
+*.csv
+*.parquet
+*.ipynb
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Env files
+.env
+
+# OS
+.DS_Store
