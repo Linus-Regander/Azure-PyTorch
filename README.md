@@ -12,9 +12,13 @@ This project is a **FastAPI-based machine learning service** built with **PyTorc
 
 The application is containerized using **Docker**, with images stored in **Docker Hub**, and deployed to **Azure App Services** for reliable and scalable cloud hosting.
 
+The first version of API will contain a basic REST API for handling arbitrary customers. The second version will contain ML practices for analyzing customers.
 
 ### Version:
 **1.0** - Initial setup of service.
+  - **1.1** - Fixed Docker image workflow and added Health test and endpoint.
+
+**2.0** - Base setup of customer API.
 
 ### Maintainers:
 
