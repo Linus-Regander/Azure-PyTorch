@@ -1,2 +1,4 @@
-uvicorn==0.47.0
-fastapi>=0.101.0
+uvicorn
+fastapi
+sqlalchemy
+asyncpg
