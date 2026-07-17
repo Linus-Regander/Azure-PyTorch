@@ -1,5 +1,4 @@
-
-<h1 align="center">Azure-PyTorch Service</h1>
+<h1 align="center">Docker-Python Microservice</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -8,11 +7,11 @@
 </p>
 
 ### Description:
-This project is a **FastAPI-based machine learning service** built with **PyTorch** and integrated with **Databricks** for scalable data processing.
+This project is a **FastAPI-based microservicee** built in **Python** and containing a RESTful users API.
 
-The application is containerized using **Docker**, with images stored in **Docker Hub**, and deployed to **Azure App Services** for reliable and scalable cloud hosting.
+The application is containerized using **Docker**, with images stored in a personal **Docker Hub**, for which can be deployed to the cloud.
 
-The first version of API will contain a basic REST API for handling arbitrary customers. The second version will contain ML practices for analyzing customers.
+The microservice is also using Github Actions in order to run a CI/CD flow for running tests and building the Docker image and deploying the image to Docker Hub on each new commit/version.
 
 ### Version:
 **1.0** - Initial setup of service.
